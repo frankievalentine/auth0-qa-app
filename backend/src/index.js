@@ -53,7 +53,7 @@ const checkJwt = jwt({
 
   // Validate audience and issuer
   audience: "NrwLmLuuJiYoo7Cv922dt3cOd0OG4n8N",
-  issuer: `https://frankievalentine.auth0.com`,
+  issuer: `https://frankievalentine.auth0.com/`,
   algorithms: ['RS256']
 });
 
